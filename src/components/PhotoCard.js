@@ -6,6 +6,7 @@ const PhotoCard = props => {
             <img className="photo" alt="NASA photo of the day" src={props.imgUrl} />
             <h2>{props.title}</h2>
             <p>date: {props.date}</p>
+            <p>{props.explanation}</p>
         </div>
     );
 };

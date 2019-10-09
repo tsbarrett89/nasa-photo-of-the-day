@@ -16,11 +16,9 @@ function PhotoGrid () {
 
     return (
         <div className="photoContainer">
-            {Array.from(photoData).map((photo, index) => {
-                return <PhotoCard key={index} title={photo.title} imgUrl={photo.url} date={photo.date} />
-            })}
+            <PhotoCard title={photoData.title} imgUrl={photoData.hdurl} date={photoData.date} explanation={photoData.explanation} />
         </div>
-    )
+    );
 }
 
 export default PhotoGrid
