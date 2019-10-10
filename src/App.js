@@ -9,6 +9,7 @@ function App() {
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
       </p> */}
+      <h1>Nasa Photo of the Day</h1>
       <PhotoGrid />
     </div>
   );

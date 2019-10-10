@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 const PhotoContainer = styled.div `
     max-width: 90vw;
-    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-image: linear-gradient(to right, #174281, #0069a4, #008c99, #00a864, #86ba13);
     display: flex;
     align-items: center;
     margin: 4% auto;
@@ -21,7 +21,7 @@ const PhotoContainer = styled.div `
     }
 
     p {
-        margin: 2% 3%;
+        margin: 2% 5%;
     }
 `
 
